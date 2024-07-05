@@ -21,20 +21,23 @@
   </head>
   <body>
     <nav>
+      
       <div><h3 class="font-italy">Delicious</h3></div>
-      <div class="nav-1">
+      <label class="labell" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+      <div class="nav-1 menuu">
         <div><a href="#home">Home</a></div>
         <div><a href="#about">About</a></div>
         <div><a href="#menu">Menu</a></div>
         <div><a href="#specials">Specials</a></div>
         <div><a href="#events">Events</a></div>
         <div><a href="#chefs">chefs</a></div>
-        <div><a href="#gellery">Gallery</a></div>
+        <div><a href="#gallery">Gallery</a></div>
         <div>
           <label for="">DropDown</label>
           <select name="" id=""></select>
         </div>
-        <div><a href="contacts">Contacts</a></div>
+        <div><a href="#contact">Contacts</a></div>
         <div><button>Book A Table</button></div>
       </div>
     </nav>
@@ -73,8 +76,8 @@
               alt="..."
             />
             <div class="test">
-              <h1>
-                <span class="text-warning font-italy">Delicious</span>
+              <h1 class="my-fontt">
+                <span class="text-warning my-fontt">Delicious</span>
                 Restaurant
               </h1>
               <p>
@@ -98,7 +101,7 @@
               alt="..."
             />
             <div class="test">
-              <h1 class="font-italy center">ipsum et et et dolor</h1>
+              <h1 class="my-fontt center">ipsum et et et dolor</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Veniam, saepe et <br />
@@ -120,7 +123,7 @@
               alt="..."
             />
             <div class="test">
-              <h1 class="font-italy center">Lorem ipsum dolor</h1>
+              <h1 class="my-fontt center">Lorem ipsum dolor</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Veniam, saepe et <br />
@@ -169,7 +172,7 @@
           </video>
         </div>
         <div class="big-2">
-          <h2 class="font-italy">
+          <h2 class="my-fontt">
             Eum ipsam laborum deleniti
             <b
               >velit pariatur architecto <br />
@@ -225,8 +228,10 @@
       </section>
       <section>
         <div class="big-4">
-          <div class="font-italy first-problem">
+          <h1 class="my-fontt disp-none">Why choose <span class="text-warning">Our Restaurant</span></h1>
+          <div class="my-fontt first-problem">
             <h1>Why choose <span class="text-warning">Our Restaurant</span></h1>
+           
           </div>
           <div>
             <p>
@@ -238,7 +243,7 @@
           <div class="big-3">
             <div class="mini-2">
               <h2 class="text-warning">01</h2>
-              <h5>Lorem Ipsum</h5>
+              <h5 class="my-fontt">Lorem Ipsum</h5>
               <p>
                 Ulamco laboris nisi ut aliquip ex ea commodo <br />
                 consequat. Et consectetur ducimus vero <br />
@@ -247,7 +252,7 @@
             </div>
             <div class="mini-2">
               <h2 class="text-warning">02</h2>
-              <h5>Lorem Ipsum</h5>
+              <h5 class="my-fontt">Lorem Ipsum</h5>
               <p>
                 Ulamco laboris nisi ut aliquip ex ea commodo <br />
                 consequat. Et consectetur ducimus vero <br />
@@ -256,7 +261,7 @@
             </div>
             <div class="mini-2">
               <h2 class="text-warning">03</h2>
-              <h5>Lorem Ipsum</h5>
+              <h5 class="my-fontt">Lorem Ipsum</h5>
               <p>
                 Ulamco laboris nisi ut aliquip ex ea commodo <br />
                 consequat. Et consectetur ducimus vero <br />
@@ -266,8 +271,307 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <section id="menu" class="main-1-1">
+        <div>
+            <h2 class="my-fontt last-thing">
+                Check our tasty <span class="text-warning">Menu</span>
+
+            </h2>
+        </div>
+        <div class="holo-2">
+            <div class="nav holo-1   nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class=" bt-22 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-homer" type="button" role="tab" aria-controls="v-pills-homer"
+                    aria-selected="true">Show All</button>
+                <button class="bt-2" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profiler"
+                    type="button" role="tab" aria-controls="v-pills-profiler" aria-selected="false">Starters</button>
+                <button class="bt-2" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messagesr"
+                    type="button" role="tab" aria-controls="v-pills-messagesr" aria-selected="false">Salades</button>
+                <button class="bt-2" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsr"
+                    type="button" role="tab" aria-controls="v-pills-settingsr" aria-selected="false">Speciality</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active hhhh" id="v-pills-homer" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="great-1">
+                        <div>
+                            <h6 class="text-warning">Lobster Bisque <span
+                                    class="text-secondary">.............................................................................</span>
+                                <b class="text-dark">$5.95</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Bread barrel <span
+                                    class="text-secondary">..........................................................................................</span>
+                                <b class="text-dark">$11.00</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Crab Cake <span
+                                    class="text-secondary">.......................................................................................</span>
+                                <b class="text-dark">$31.50</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Caesar Selections <span
+                                    class="text-secondary">..................................................................................</span>
+                                <b class="text-dark">$9.21</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Greek Salad <span
+                                    class="text-secondary">...................................................................................</span>
+                                <b class="text-dark">$14.25</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Spinach Salad <span
+                                    class="text-secondary">..........................................................................................</span>
+                                <b class="text-dark">$41.00</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Tuscan Grilled <span
+                                    class="text-secondary">...............................................................................</span>
+                                <b class="text-dark">$21.99</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Mozzarella Stick <span
+                                    class="text-secondary">.....................................................................................</span>
+                                <b class="text-dark">$13.20</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Lobster Roll <span
+                                    class="text-secondary">..................................................................................</span>
+                                <b class="text-dark">$43.95</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profiler" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="great-1">
+                        <div>
+                            <h6 class="text-warning">Caesar Selections <span
+                                    class="text-secondary">.............................................................................</span>
+                                <b class="text-dark">$19.00</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Tuscan Grilled <span
+                                    class="text-secondary">..........................................................................................</span>
+                                <b class="text-dark">$11.90</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Mozzarella Stick <span
+                                    class="text-secondary">.......................................................................................</span>
+                                <b class="text-dark">$23.50</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messagesr" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+                    <div class="great-1">
+                        <div>
+                            <h6 class="text-warning">Greek Salad <span
+                                    class="text-secondary">.............................................................................</span>
+                                <b class="text-dark">$11.95</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Spinach Salad <span
+                                    class="text-secondary">..........................................................................................</span>
+                                <b class="text-dark">$12.90</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                        <div>
+                            <h6 class="text-warning">Lobster Roll <span
+                                    class="text-secondary">.......................................................................................</span>
+                                <b class="text-dark">$21.00</b>
+                            </h6>
+                            <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settingsr" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <div class="great-1">
+                    <div>
+                        <h6 class="text-warning">Caesar Selections <span
+                                class="text-secondary">.............................................................................</span>
+                            <b class="text-dark">$41.95</b>
+                        </h6>
+                        <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                    <div>
+                        <h6 class="text-warning">Mozzarella Stick <span
+                                class="text-secondary">..........................................................................................</span>
+                            <b class="text-dark">$33.50</b>
+                        </h6>
+                        <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                    <div>
+                        <h6 class="text-warning">Tuscan Grilled <span
+                                class="text-secondary">.......................................................................................</span>
+                            <b class="text-dark">$21.95</b>
+                        </h6>
+                        <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+    </section>
+    <section>
+
+        <div id="specials" class="main2">
+
+            <div class="my-fontt">
+                <h2>Check our <span class="text-warning">Specials</span></h2>
+            </div>
+            <div>
+                <p class=" pt-3 pb-3 text-center">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+                    adipisci <br> expedita at voluptas atque
+                    vitae autem.</p>
+            </div>
+
+
+        </div>
+        <div class=" testing d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="bt-1 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                    type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">First Plate</button>
+                <button class="bt-1" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                    type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    Second Plate</button>
+                <button class="bt-1" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+                    type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    Third Plate</button>
+                <button class="bt-1" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+                    type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    Forth Plate</button>
+                <button class="bt-1" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingss"
+                    type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    Fifth Plate</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="menu-2-1">
+                        <div>
+                            <h3>Architecto ut aperiam autem id</h3>
+                            <p class="text-secondary">Qui laudantium consequatur laborum sit qui ad sapiente dila parde
+                                sonata <br> raqer a videna
+                                mareta paulona marka</p>
+                            <p class="text-secondary">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. <br> Laborum eos
+                                ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est <br> repellat minima
+                                eveniet
+                                eius et quis magni nihil. Consequatur dolorem quaerat <br> quos qui similique accusamus
+                                nostrum rem vero</p>
+                        </div>
+                        <div><img height="250px" src="./public/images/specials-1.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="menu-2-1">
+                        <div>
+                            <h3>Et blanditiis nemo veritatis excepturi </h3>
+                            <p class="text-secondary">Qui laudantium consequatur laborum sit qui ad sapiente dila parde
+                                sonata <br> raqer a videna
+                                mareta paulona marka</p>
+                            <p class="text-secondary">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. <br> Laborum eos
+                                ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est <br> repellat minima
+                                eveniet
+                                eius et quis magni nihil. Consequatur dolorem quaerat <br> quos qui similique accusamus
+                                nostrum rem vero</p>
+                        </div>
+                        <div><img height="250px" src="./public/images/specials-2.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="menu-2-1">
+                        <div>
+                            <h3>Impedit facilis occaecati odio neque aperiam sit
+                            </h3>
+                            <p class="text-secondary">Qui laudantium consequatur laborum sit qui ad sapiente dila parde
+                                sonata <br> raqer a videna
+                                mareta paulona marka</p>
+                            <p class="text-secondary">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. <br> Laborum eos
+                                ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est <br> repellat minima
+                                eveniet
+                                eius et quis magni nihil. Consequatur dolorem quaerat <br> quos qui similique accusamus
+                                nostrum rem vero</p>
+                        </div>
+                        <div><img height="250px" src="./public/images/specials-3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="menu-2-1">
+                        <div>
+                            <h3> laboriosam ut est accusamus laboriosam</h3>
+                            <p class="text-secondary">Qui laudantium consequatur laborum sit qui ad sapiente dila parde
+                                sonata <br> raqer a videna
+                                mareta paulona marka</p>
+                            <p class="text-secondary">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. <br> Laborum eos
+                                ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est <br> repellat minima
+                                eveniet
+                                eius et quis magni nihil. Consequatur dolorem quaerat <br> quos qui similique accusamus
+                                nostrum rem vero</p>
+                        </div>
+                        <div><img height="250px" src="./public/images/specials-4.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settingss" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    <div class="menu-2-1">
+                        <div>
+                            <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                            <p class="text-secondary">Qui laudantium consequatur laborum sit qui ad sapiente dila parde
+                                sonata <br> raqer a videna
+                                mareta paulona marka</p>
+                            <p class="text-secondary">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum
+                                sint. <br> Laborum eos
+                                ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est <br> repellat minima
+                                eveniet
+                                eius et quis magni nihil. Consequatur dolorem quaerat <br> quos qui similique accusamus
+                                nostrum rem vero</p>
+                        </div>
+                        <div><img height="250px" src="./public/images/specials-5.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+      
       <section id="events" class="big-5">
         <div
           id="carouselExampleSlidesOnly"
@@ -286,7 +590,7 @@
                   />
                 </div>
                 <div class="big-22">
-                  <h2 class="font-italy text-warning">BirthDay Parties</h2>
+                  <h2 class="my-fontt text-warning">BirthDay Parties</h2>
                   <div>
                     <h3>189$</h3>
                   </div>
@@ -341,7 +645,7 @@
                   />
                 </div>
                 <div class="big-22">
-                  <h2 class="font-italy text-warning">Costom Parties</h2>
+                  <h2 class="my-fontt text-warning">Costom Parties</h2>
                   <div>
                     <h3>99$</h3>
                   </div>
@@ -396,7 +700,7 @@
                   />
                 </div>
                 <div class="big-22">
-                  <h2 class="font-italy text-warning">Private Parties</h2>
+                  <h2 class="my-fontt text-warning">Private Parties</h2>
                   <div>
                     <h3>290$</h3>
                   </div>
@@ -445,7 +749,7 @@
       </section>
       <section class="big-8">
         <div>
-          <h3>Book A <span class="text-warning">Table</span></h3>
+          <h3 class="my-fontt">Book A <span class="text-warning">Table</span></h3>
         </div>
         <div>
           <p>
@@ -497,9 +801,9 @@
           <div><button class="btn-1">Send Message</button></div>
         </div>
       </section>
-      <section class="big-gallery">
+      <section id="gallery" class="big-gallery">
         <div>
-          <h3>
+          <h3 class="my-fontt theend">
             Some photos from <span class="text-warning">Our Restaurant</span>
           </h3>
         </div>
@@ -537,10 +841,10 @@
           </div>
         </div>
       </section>
-      <section
-        class="big-fff pt-5 d-flex flex-column align-items-center justify-content-center"
+      <section class="chefsss" id="chefs"
+        class="big-fff  pt-5 d-flex flex-column align-items-center justify-content-center"
       >
-        <h1>
+        <h1 class="my-fontt h-1">
           Our Proffesional
           <span class="text-warning">Chefs</span>
         </h1>
@@ -557,7 +861,7 @@
               <p>Master Chef</p>
               <hr />
 
-              <p>hh hh hh hh</p>
+              <div><p class="last-111"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-skype"></i><i class="fa-brands fa-linkedin-in"></i></p></div>
             </div>
           </div>
           <div class="p">
@@ -565,7 +869,8 @@
             <div class="bg-white f">
               <h5>Sarah Jhonson</h5>
               <p>Patissier</p>
-              <p>hh hh hh hh</p>
+              <hr />
+              <div><p class="last-111"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-skype"></i><i class="fa-brands fa-linkedin-in"></i></p></div>
             </div>
           </div>
           <div class="p">
@@ -573,7 +878,8 @@
             <div class="bg-white f">
               <h5>William Anderson</h5>
               <p>Cook</p>
-              <p>hh hh hh hh</p>
+              <hr />
+              <div><p class="last-111"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-skype"></i><i class="fa-brands fa-linkedin-in"></i></p></div>
             </div>
           </div>
         </div>
@@ -681,8 +987,8 @@
           </div>
         </div>
       </section>
-      <section class="contact">
-        <h1><span class="text-warning">Contact </span>Us</h1>
+      <section id="contact" class="contact">
+        <h1 class="my-fontt"><span class="text-warning">Contact </span>Us</h1>
         <p class="text-center">
           Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
           <br />
@@ -754,7 +1060,7 @@
         </div>
       </section>
       <section class="footer">
-        <div><h3 class="text-warning">Delicious</h3></div>
+        <div><h3 class="my-fontt text-warning">Delicious</h3></div>
         <div><p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p></div>
         <div><p class="last-1"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-skype"></i><i class="fa-brands fa-linkedin-in"></i></p></div>
         <div><p>© Copyright <b>Delicious</b>. All Rights Reserved</p></div>
@@ -762,6 +1068,7 @@
 
       </section>
     </main>
+    <section></section>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
