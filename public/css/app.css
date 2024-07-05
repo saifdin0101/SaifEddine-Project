@@ -617,26 +617,12 @@ nav nav:focus {
 @media (max-width: 430px) {
   nav {
     width: 426px;
-    display: block;
   }
-  nav .labell {
+  nav a,
+  nav select,
+  nav label,
+  nav button {
     display: none;
-  }
-  .menuu {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    display: none;
-    background-color: brown;
-    color: white;
-  }
-  .menuu a {
-    display: block;
-    padding-bottom: 25px;
-    margin: 0px;
-  }
-  #toggle:checked + .menuu {
-    display: block;
   }
 }
 /*!
