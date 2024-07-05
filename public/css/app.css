@@ -583,6 +583,7 @@ nav {
   position: fixed;
   z-index: 99999;
   width: 100%;
+  justify-content: space-between;
 }
 nav div h3, nav div .h3 {
   font-family: my-fontt;
@@ -590,7 +591,6 @@ nav div h3, nav div .h3 {
 nav .nav-1 {
   display: flex;
   gap: 30px;
-  padding-left: 400px;
 }
 nav .nav-1 a {
   text-decoration: none;
@@ -614,6 +614,31 @@ nav nav:focus {
   color: #db8606;
 }
 
+@media (max-width: 430px) {
+  nav {
+    width: 426px;
+    display: block;
+  }
+  nav .labell {
+    display: none;
+  }
+  .menuu {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: none;
+    background-color: brown;
+    color: white;
+  }
+  .menuu a {
+    display: block;
+    padding-bottom: 25px;
+    margin: 0px;
+  }
+  #toggle:checked + .menuu {
+    display: block;
+  }
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
